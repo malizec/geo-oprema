@@ -1,0 +1,37 @@
+.contact{}
+
+	.contact .contact_info{
+		position: absolute;
+		width: 500px;
+		opacity: 0.5;
+		background-color: #fff;
+		margin: 50px 0px 0px 50px;
+		padding: 20px;
+	}
+
+
+	/* form */
+
+	.contact .contact_info form{
+		width: 100%;
+	}
+
+	.contact .contact_info form input{
+		width: 92%;
+		padding: 4%;
+		border: none;
+		background-color: #e3e3e3;
+	}
+	.contact .contact_info form textarea{
+		width: 92%;
+		padding: 4%;
+		border: none;
+		background-color: #e3e3e3;
+	}
+	.contact .contact_info form input[type=submit]{
+		width: 40%;
+		padding: 4%;
+		border: none;
+		background-color: #e3e3e3;
+		cursor: pointer;
+	}

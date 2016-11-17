@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* 
+------------------------------
+
+		Nenad Cvetkovic 
+		Designe for Pedja Prodaja
+		Copyright 2013
+		Web Addres http://malizec.netne.net /
+		e-mail nenadcv@gmail.com
+
+------------------------------
+		
+		COLOR:
+		svetlo-plava 		- #33CCFF
+		nezno-plava  		- #AEDDEE
+		svetlo ljubicsta 	- #868392
+		svetlo-zuta 		- #FFD823
+		svetlo zeleno plava - #00CCC9
+		tamno-plava			- #2A3744
+
+		main zeleno plava boja #1ABC9C
+*/
+
+/*	
+	backgrond for dropdown menu
+
+		background-color: #F7F7FA;
+	    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.1) 0px, rgba(0, 0, 0, 0.1) 100%), url("http://store.nike.com/nikestore/html/img/OneNike/bg-noise.png?buildRev=195539");
+	    background-size: auto auto;
+	    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+	    color: #EEEEEE;
+
+	box transform
+		transform:rotate(45deg);
+		-ms-transform:rotate(45deg); /* IE 9 
+		-webkit-transform:rotate(45deg); /* Safari and Chrome 
+
+*/
+
+
+/* reset code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******* end reset code *********/
+
+body, a{
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+/* all */
+#all{}
+
+/* header */
+header{
+}
+
+	header #header{
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+		header #header .logo_box{
+			width: 40%;
+		}
+			header #header .logo_box img{
+				width: 100%
+			}
+
+		/* search box */
+		header #header .search_box{
+			width: 30%;
+		}
+
+			header #header div.tel_info{
+				padding: 10px;
+				color: #666;
+				font-size: 18px;
+				font-style: italic;
+				border: thin dashed #D6D6D6;
+				text-align: center;
+				background-color: #fff;
+			}
+
+			header #header div.jSearch{
+				padding: 20px 0px 0px 0px;
+			}
+
+				header #header div.jSearch input{
+					width: 89%;
+					border: thin solid #f3f3f3;
+					font-size: 18px;
+					font-style: italic;
+					margin: 0px 0px 0px 0px;
+					padding: 3px 0px 3px 1%;
+					color: #999;
+				}
+
+				header #header div.jSearch input:focus{
+					color: #333;
+					border-color: #333;
+				}
+
+		header #header .web_site_friend{
+			width: 30%;
+			text-align: center;
+		}
+
+			header #header .web_site_friend .title_text{
+				color: #333;
+				position: absolute;
+				margin: 20px 0px 0px -90px;
+				font-size: 12px;
+				font-style: italic;
+			}
+
+			header #header .web_site_friend img{
+				width: 60%;
+			}
+
+/* end header */
+
+/* main_nav */
+
+	.main_nav{
+		width: 100%;
+		border-top: thin solid #e3e3e3;
+		border-bottom: thin solid #333;
+	}
+		.main_nav nav{
+			width: 1000px;
+			margin: 0px auto;
+			font-size: 14px;
+		}
+
+		/* links */
+
+		/* home sprite */
+		.main_nav nav ul li a span.home_sprite_icon{
+			width: 25px;
+			height: 22px;
+			background-color: #333;
+			display: block;
+			background: url(../images/sprite/sprite3.png) -15px -8px no-repeat;
+			background-size: 400px 300px;
+			margin-top: -4px;
+		}
+
+		.main_nav nav ul{}
+
+			.main_nav nav ul li{
+				border-right:thin solid #e3e3e3;
+			}
+
+			.main_nav nav ul li:last-child{
+				border-right: none;
+			}
+
+			.main_nav nav ul li a{
+				display: block;
+				padding: 13px 17px;
+				color: #6D6D6D;
+			}
+
+			.main_nav nav ul li a:hover{
+				background-color: #e3e3e3;
+				color: #DC2055;
+			}
+
+		/* dropbox */
+		.main_nav nav ul li.drop ul.dropbox-content{
+			display: none;
+			position: absolute;
+			background-color: #fff;
+			color: #000;
+			border: thin solid #e3e3e3;
+			z-index:1000;
+		}
+
+			.main_nav nav ul li.drop ul.dropbox-content li ul.left_popup_dropbox{
+				width: 250px;
+				position: absolute;
+				background-color: #fff;
+				border: 4px solid #000;
+				margin: -40px 0px 0px 230px;
+				display: none;
+			}
+
+/* end of main_nav */
+
+/* content */
+
+div#content{
+	padding: 0px 0px 0px 0px;
+}
+	div#content .breadcrumb{
+		width: 1000px;
+		margin: 0px auto;
+		margin-bottom: 5px;
+		background-color: #fff;
+		padding: 5px;
+		border-bottom: 1px solid #e3e3e3;
+		font-size: 12px;
+		color: #999;
+	}
+		div#content .breadcrumb a{
+			color: #008BBF;
+		}
+	
+	div#content .speed_contact_info{
+		font-size: 13px;
+		color: #000;
+		font-style: italic;
+		padding: 10px 10px;
+		text-align: center;
+		border: thin dashed #333;
+	}
+
+
+	div#content .main_content{
+		width: 100%;
+		min-height: 350px;
+		margin: 0px auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		background-color: #fff;
+	}
+
+	/* main content - left content */
+
+	div#content .main_content div.leftContent{
+		/* products.css */
+	}
+
+		div#content .main_content div.leftContent div.leftNavMenu{}
+
+			div#content .main_content div.leftContent div.leftNavMenu div.leftNavTitle{}
+
+			div#content .main_content div.leftContent div.leftNavMenu ul.menuContent{}
+
+			/* left popup dropbox */
+
+				div#content .main_content div.leftContent div.leftNavMenu ul.menuContent li ul.left_popup_dropbox{
+					position: absolute;
+					background-color: #fff;
+					border: 4px solid #000;
+					margin: -40px 0px 0px 190px;
+					display: none;
+				}
+
+			/* */
+
+	/* main content -right content */
+
+	div#content .main_content div.rightContent{
+		/* products.css */
+	}
+
+/* end content */
+
+/* footer */
+
+footer{
+	color: #000;
+	margin-top: 0px;
+}
+	footer #footer_box .page_footer_info, footer #footer_box .page_footer_info a{
+		font-size: 12px;
+		color: #999;
+	}
+		footer #footer_box .page_footer_info a:hover{
+			color: #DD1E53;
+		}
+
+	footer #footer_box{
+		width: 100%;
+		padding: 20px 0px 0px 0px;
+		margin: 0px auto;
+			background-color: #EDEDED;
+	}
+
+		footer #footer_box .box_content{
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			color: #928C8C;
+		}
+
+			footer #footer_box .box_content .box_content_30{
+				width: 30%;
+				padding: 1%;
+			}
+
+			footer #footer_box .box_content .box_content_30 .title{
+				border-top: thin solid #928C8C;
+				border-bottom: thin solid #928C8C;
+				padding: 10px 0px;
+				font-size: 15px;
+			}
+
+				footer #footer_box .box_content .box_content_30.menu{
+					line-height: 1.2em;
+					font-size: 12px;
+				}
+
+					footer #footer_box .box_content .box_content_30.menu ul li.links{
+						font-size: 14px;
+						margin-bottom: 10px;
+						border-bottom: thin dashed #333;
+					}
+				
+				footer #footer_box .box_content .box_content_30.contact{
+					line-height: 1.2em;
+					font-size: 14px;
+				}
+
+					footer #footer_box .box_content .box_content_30.contact ul li.title{
+						font-size: 16px;
+						margin-bottom: 10px;
+					}
+					footer #footer_box .box_content .box_content_30.contact ul li.contact_tel{
+						font-size: 18px;
+						font-style: italic;
+					}
+				
+				footer #footer_box .box_content .box_content_30.social_box{
+
+				}
+
+				footer #footer_box .box_content .box_content_30.quick-form{
+				}
+					footer #footer_box .box_content .box_content_30.quick-form input{
+						width: 90%;
+						border: none;
+						padding: 5px 3px;
+						margin-bottom: 5px;
+						font-size: 14px;
+					}
+					
+					footer #footer_box .box_content .box_content_30.quick-form input[type=submit]{
+						border: thin solid #000;
+						background-color: #B31D37;
+						color: #fff;
+						width: 30%;
+						margin: 10px 0px;
+						padding: 7px 4px;
+						border-radius: 3px;
+						cursor: pointer;
+					}
+
+					footer #footer_box .box_content .box_content_30.quick-form textarea{
+						width: 90%;
+						border: none;
+						padding: 5px 3px;
+						font-size: 14px;
+					}
+
+		footer #footer_box .page_footer_info{
+			padding: 10px;
+			background-color: #333333;
+		}
+
+/* end footer */
+
+/* wrapxx */
+.wrap1000{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* text-align */
+.center-align{
+	text-align: center;
+}
+
+.lefta-align{
+	text-align: left;
+}
+
+.right-align{
+	text-align: right;
+}
+
+/* rest */
+
+.clear{
+	clear: both;
+}
+
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+
+/* shadow box */
+.shadow_box{
+    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.1) 0px, rgba(0, 0, 0, 0.1) 100%), url("../images/bg-noise.png");
+    background-size: auto auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    color: #EEEEEE;	
+}

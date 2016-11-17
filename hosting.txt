@@ -1,0 +1,40 @@
+Kreiran je Hosting BASIC nalog na našim serverima.
+
+cPanelu možete pristupiti sa adrese:
+http://www.geo-oprema.rs/cpanel
+
+FTP server:
+ftp.geo-oprema.rs
+
+Username: geooprema
+Password: QpH&2+P+Qw)M
+
++===================================+
+| Domain: geo-oprema.rs
+| Ip: 188.255.140.200 (n)
+| HasCgi: n
+| UserName: geooprema
+| PassWord: QpH&2+P+Qw)M
+| CpanelMod: x3
+| HomeRoot: /home
+| Quota: 1024 Meg
+| NameServer1: ns1.hostingweb.rs
+| NameServer2: ns2.hostingweb.rs
+| NameServer3: ns3.hostingweb.rs
+| NameServer4:
+| Contact Email: geooprema.nis@gmail.com
+| Package: ninet_basic
+| Feature List: default
+| Language: en
++===================================+
+
+Sadržaj prezentacije postavite u folder public_html.
+
+Pristup webmailu:
+http://www.geo-oprema.rs/webmail
+
+
+Pogledajte našu bazu znanja za dodatne informacije:
+https://www.ninet.rs/support/Knowledgebase/List
+
+Stojimo Vam na raspolaganju za sva dodatna pitanja.

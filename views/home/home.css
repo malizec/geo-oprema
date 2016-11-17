@@ -1,0 +1,57 @@
+.main_content .slider{
+	border-top: 10px solid #fff;
+}
+
+	.main_content .slider img{
+		width: 100%;
+	}
+
+/* about box */
+
+.about{}
+
+	.about h1{
+		background-color: #000;
+		color: #fff;
+		font-style: italic;
+		padding: 5px 10px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.about p{
+		padding: 0px;
+	}
+
+/* brends_Box */
+
+.brends_box{
+	background-color: #fff;
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+	border-top: 10px solid #fff;
+}
+
+	.brends_box p{
+		background-color: #e3e3e3;
+		padding: 5px;
+		color: #fff;
+	}
+
+	.brends_box div{
+		width: 30%;
+	}
+
+/* new producs box */
+
+.new_products_box{
+	height: 150px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+	.new_products_box p{
+		background-color: #333;
+		color: #fff;
+		padding: 5px;
+	}

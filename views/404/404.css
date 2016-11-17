@@ -1,0 +1,19 @@
+.info404{
+	position:absolute;
+	border: thin dashed #fff;
+	color: #fff;
+	display: block;
+	padding: 30px;
+	margin: -350px 0px 0px 100px;
+	font-size: 30px;
+	background-color: #333;
+	opacity: 0.6;
+	text-align: center;
+}
+
+	.info404 span a{
+		color: #07B6EB;
+	}
+	.info404 span a:hover{
+		color: #007CA5;
+	}

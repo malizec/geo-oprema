@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* 
+------------------------------
+
+		Nenad Cvetkovic 
+		Designe for Pedja Prodaja
+		Copyright 2013
+		Web Addres http://malizec.netne.net /
+		e-mail nenadcv@gmail.com
+
+------------------------------
+		
+		COLOR:
+		svetlo-plava 		- #33CCFF
+		nezno-plava  		- #AEDDEE
+		svetlo ljubicsta 	- #868392
+		svetlo-zuta 		- #FFD823
+
+*/
+
+
+/* reset code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/******* end reset code *********/
+
+
+html{}
+
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+/* info style css */
+.small_info_text{
+font-size: 11px;
+font-style: italic;
+color: #999;
+}
+
+/* message */
+
+.message{
+	position: absolute;
+	width: 400px;
+	height: auto;
+	border: 4px solid #333F4B;
+	background-color: #B5C2CE;
+	padding: 20px;
+	margin: 200px auto;
+	left: 30%;
+	font-style: italic;
+	font-size: 24px;
+	color: #333;
+		/*background-color: #F7F7FA;*/
+	    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.1) 0px, rgba(0, 0, 0, 0.1) 100%), url("../images/bg_noise.png");
+	    background-size: auto auto;
+	    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 7px;
+	z-index: 9999;
+}
+	.message li{
+		display: block;
+		padding: 3px 10px;
+	}
+	.close_message{
+		cursor: pointer;
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: #333;
+		margin: -30px 0px 0px 410px; 
+		float: left;
+		padding: 5px 6px;
+		border-radius: 5px;
+		position: absolute;
+		color: #fff;
+	    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.1) 0px, rgba(0, 0, 0, 0.1) 100%), url("../images/bg_noise.png");
+	    background-size: auto auto;
+	    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+	    color: #EEEEEE;
+	}
+
+/********* end message *******/
+
+/* end info stylle css */
+
+
+/* header */
+
+header{
+	width: 90%;
+	padding: 5px 5%;
+	min-height: 20px;
+	height: auto;
+	background-color: #333;
+	color: #fff;
+margin-bottom: 5px;
+}
+	header a{
+		color: #fff;
+	}
+
+	header .backToPublic{
+		display: inline-block;
+		width: auto;
+		height: auto;
+		margin: 0px 10px 0px 0px;
+	}
+		header .backToPublic a{
+			padding: 5px 10px;
+			background-color: #000;
+		}
+		header .backToPublic a:hover{
+			background-color: #999;
+		}
+
+		header .search_box{
+			display: inline-block;
+			width: auto;
+			height: auto;
+		}
+
+/********** content *************/
+
+	/******** left content ******/
+
+	.left_content{
+		width: 20%;
+		min-height: 750px;
+		background-color: #384450;
+	}
+		.left_content ul.dropdown-ul{
+			display: none;
+		}
+
+		.left_content nav ul li a{
+			padding: 15px 20px;
+			display: block;
+			border-bottom: thin solid #333;
+		}
+			.left_content nav ul li a:link, .left_content nav ul li a:active, .left_content nav ul li a:visited{
+				color: #fff;
+			}
+
+
+		.left_content nav ul li a:hover{
+			background-color: #414F61;
+			color: #999;
+		}
+
+
+
+	/******** right content *********/
+
+	.right_content{
+		width: 75%;
+		min-height: 600px;
+		background-color: #FAFDFF;
+	}
+
+/************** footer **************/
+footer{
+
+}
+	div#footer{
+		background-color: #343434;
+		width: 100%;
+		height: auto;
+		padding: 10px 0;
+		color: white;
+		margin-top: 1px;
+		border-radius: 3px;
+		margin-bottom: 10px;
+	}
+
+/************** end footer *********/
+
+
+
+/******* box style ************/
+
+	/* px */
+
+
+	/*    */
+
+	/* % */
+
+.box20{
+	width: 20%;
+}
+
+.box30{
+	width: 30%;
+}
+
+.box70{
+	width: 70%;
+}
+.box80{
+	width: 80%;
+}
+	/*    */
+
+/************** rest style code **************/
+.clear{
+	clear: both;
+}
+.float_left{
+	float: left;
+}
+
+.float_right{
+	float: right;
+}
+
+/************** end rest style code *********/
+

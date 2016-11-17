@@ -1,0 +1,21 @@
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
+
+        .banner ul li img.banner-img{
+        	width: 1000px;
+        	height: 400px;
+        	z-index: 1;
+        }
+
+		.banner ul li div.banner-text{
+			background-color: #333;
+		    color: #fff;
+		    font-size: 34px;
+		    font-style: italic;
+		    margin-top: -200px;
+		    opacity: 0.7;
+		    padding: 20px;
+		    position: absolute;
+		    z-index: 500;
+		}       

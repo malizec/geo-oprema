@@ -1,0 +1,55 @@
+{
+    "13":{
+        "ET-02/ET-02L":{
+            "teleskope":{
+                "image":"erect",
+                "magnification":"30x",
+                "effective aperture":"45mm",
+                "resolving power":"3\"",
+                "field of view":"1\"30'",
+                "min focusing distance":"1.4m",
+                "stadia ratio":"100",
+                "stadia constant":"0",
+                "tube length":"157mm"
+             },
+             "angle measurement":{
+                "reading system":"absolute encoding",
+                "diameter of circle (vhz)":"79mm",
+                "minimum reading":"1\"5\"10\" selectable",
+                "accuracy":"2\"",
+                "detection method: hor":"dual",
+                "detection method: ver":"dual"
+             },
+             "display":{
+                "(lcd) diplplay type":"2 sides"
+             },
+             "memory":{
+                "internal memory":"256 pairs of h. & v. angle"
+             },
+             "level sensitivity":{
+                "plate vial":"30\"/2mm",
+                "Circukular Vial":"10`/2mm"
+             },
+             "COMPENSATION":{
+                "System":"Liquid-Electric Detection",
+                "Working Range":"÷3'",
+                "Accuracy":"1\""
+             },
+             "OPTICAL PLUMMET":{
+                "Image":"Erect",
+                "Magnification":"3X",
+                "Focusing Range":"0.5m~∞",
+                "Field of View":"5\""
+             },
+             "GENERAL":{
+                "Laser Pointer":"ET-02L:Yes",
+                "Operating Temperature":"-20°C ~ 45°C",
+                "Water Proof":"IP66",
+                "Internal Power Supply":"Rechargeable Ni-H battery / AA battery",
+                "Voltage":"6VDC",
+                "Operating Time":"10 hours/20 hours (battery pack)",
+                "Dimension":"L145 X H318 X W179mm"
+             }
+        }
+    }
+}
